@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+/* main section start */
+main{
+    width: 75%;
+    margin: auto;
+}
+/* main section start */
+/* young obama section style start */
+.obama-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 100px;
+    margin-top: 20px;
+} 
+
+.obama-title{
+    font-size: 75px;
+    color: rgb(109, 106, 106);
+    height: 150px;
+}
+.obama-about{
+    font-size: 32px;
+    height: 60px;
+    margin-left: 15px;
+}
+.obama-img{
+   width: 350px;
+   height: 400px;
+   
+}
+.obama-item ul{
+    margin-left: 20px;
+}
+.obama-item ul>li{
+    color: gray;
+    line-height: 22px;
+    
+}
+/* young obama section style end */
+/* about section style start */
+.about-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 120px;
+}
+.about-description{
+   width: 695px;
+   height: 90px;
+   font-size: 18px;
+   margin-left: 15px;
+   color: rgb(92, 90, 90);
+}
+/* about section style end */
+
+/* what i do section style start */
+.what-i-do-conatiner{
+    display: flex;
+}
+/* what i do section style end */
