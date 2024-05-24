@@ -49,6 +49,7 @@ main{
    align-items: center;
    justify-content: center;
    gap: 120px;
+   margin-left: 100px;
 }
 .about-description{
    width: 695px;
@@ -60,7 +61,40 @@ main{
 /* about section style end */
 
 /* what i do section style start */
-.what-i-do-conatiner{
-    display: flex;
+.section-title{
+    margin-top: 120px;
 }
+.what-i-do-container{
+    display: flex;
+    gap: 35px;
+     justify-content: start;
+}
+.what-i-do-item{
+  border: 2px solid rgb(145, 145, 145);
+  width: 25%;
+  height: 240px;
+  border-radius: 16px;
+  padding: 10px 15px;
+}
+.icon{
+   width: 60px;
+}
+.about-description{
+    width: 90%;
+}
+
+
 /* what i do section style end */
+/* footer section style start */
+footer{
+    width: 75%;
+    margin: auto;
+}
+.copy{
+    margin: 50px 0;
+}
+small{
+   color: rgb(95, 90, 90);
+   font-weight: bolder;
+}
+/* footer section style end */
