@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    width: 100%;
 }
 /* main section start */
 main{
@@ -17,6 +17,7 @@ main{
     justify-content: start;
     gap: 100px;
     margin-top: 20px;
+   
 } 
 
 .obama-title{
@@ -34,6 +35,9 @@ main{
    height: 400px;
    
 }
+.obama-item{
+   width: 50%;
+}
 .obama-item ul{
     margin-left: 20px;
 }
@@ -49,13 +53,16 @@ main{
    align-items: center;
    justify-content: center;
    gap: 120px;
-   margin-left: 100px;
+  
+}
+.about-item{
+    width: 40%;
 }
 .about-description{
-   width: 695px;
+    width: 92%;
    height: 90px;
-   font-size: 18px;
-   margin-left: 15px;
+   font-size: 16px;
+   margin: 0 18px;
    color: rgb(92, 90, 90);
 }
 /* about section style end */
@@ -79,10 +86,6 @@ main{
 .icon{
    width: 60px;
 }
-.about-description{
-    width: 90%;
-}
-
 
 /* what i do section style end */
 /* footer section style start */
